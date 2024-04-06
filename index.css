@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+  background-size: cover;
+}
+
+nav {
+    background-color: #333;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.Imageholder {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-top: 10px;
+}
+
+#menuitems {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menuitems li {
+    margin-right: 20px;
+}
+
+#menuitems a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.form-group label[for="gender"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+#list p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#list ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#list li {
+    margin-bottom: 5px;
+}
+
+#tb {
+    display: flex;
+    flex-direction: column;
+}
+
+#tb p {
+   font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#tb table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tb th,
+#tb td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#tb th {
+    background-color: #333;
+    color: #fff;
+}
+
+#tb tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
